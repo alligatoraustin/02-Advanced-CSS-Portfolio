@@ -13,16 +13,17 @@
 
 <body>
     <section>
+        <h1 id="active"></h1>
         <!--navigation------------------------->
         <nav>
         <!--logo-->
         <a href="#" class="logo">My Portfolio</a>
         <!--menu-->
         <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#active" class="active">Home</a></li>
+        <li><a href="#aboutmiddle">About</a></li>
+        <li><a href="#middle">Work</a></li>
+        <li><a href="#bottom">Contact</a></li>
         </ul>
         <!--bars--------------->
         <div class="toggle"></div>
@@ -34,10 +35,10 @@
         <p>Hello,</p>
         <p>I&#8217;M AUSTIN</p>
         <p>Software Engineer <br>& Developer</p>
+        <h1 id="aboutmiddle"></h1>    
     </div>
 <!--model---------------------->
 <img alt="model" class="model" src="images\selfie.jpg">
-
 <div class="about-container">
 	<!--img-->
 		<img src="images\pic.jpg"/>
@@ -52,6 +53,7 @@
 	</div>
   
   <!--services-container---------------------------->
+  <h1 id="middle"></h1>
   <div class="services ">
     <!--text-->
     <div class="services-text ">
@@ -84,6 +86,7 @@
 </div>
 
   <!--if you have any project in your mind contact me-->
+  <h1 id="bottom"></h1>
   <div class="contact-me">
     <!--text-->
     <div class="contact-text">
@@ -108,7 +111,8 @@
         <div class="contact-3">
         <p class="heading">Github</p>
         <div onclick="location.href='https://github.com/alligatoraustin';" style="cursor: pointer;"></div>
-        <a href="https://github.com/alligatoraustin">Github.com/alligatroaustin</a>
+        <a href="https://github.com/alligatoraustin" target="_blank">Github.com/alligatroaustin</a> 
+        <!--Added a new tab button for the link above-->
 
         </div>
     </div>
